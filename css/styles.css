@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Nav Bar Css */
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -11,7 +13,7 @@ body {
     font-size: 32px;
 }
 
-.nav-logo {
+.header .nav-logo {
     height: 110px;
     width: auto;
 }
@@ -28,6 +30,10 @@ body {
     font-size: 18px;
 }
 
+/* End Nav Bar Css */
+
+/* Content Container One Css */
+
 .content-container-one {
     display: flex;
     justify-content: space-evenly;
@@ -37,13 +43,68 @@ body {
     padding: 80px;
 }
 
+.content-container-one h1 {
+    font-size: 42px;
+}
+
+.content-container-one p {
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+}
+
 .content-container-one img {
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 650px;
 }
 
 .main-text {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+.content-container-one .enjoyment {
+    border-radius: 15px;
+    background-color: #b35bdb;
+    margin-top: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    border: none;
+}
+
+/* End Content Cotainer One Css */
+
+/* Content Container Two Css */
+
+.content-container-two {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.flavor-cards {
+    max-width: 225px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.flavor-cards img {
+    width: 100px;
+    height: 230px;
+}
+
+.header-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    padding: 50px;
+}
+
+.flavor-text {
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
 }
