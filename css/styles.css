@@ -81,6 +81,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 75px;
 }
 
 .flavor-cards {
@@ -107,4 +108,55 @@ body {
     padding: 25px;
     text-align: center;
     font-size: 18px;
+}
+
+/* End Content Container Two Css */
+
+/* Content Container Three Css */
+
+.content-container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    width: 50%;
+}
+
+.quote p {
+    display: flex;
+    justify-content: center;
+}
+
+/* End Content Container Three Css */
+
+/* Final Content Container Css */
+
+.content-container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b35bdb;
+    border-radius: 10px;
+    width: 800px;
+    padding: 30px;
+}
+
+.action-button {
+    border-radius: 15px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #b35bdb;
 }
